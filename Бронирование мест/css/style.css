@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('PlayfairDisplay-VariableFont_wght.woff') format('woff');
+} 
+
+body {
+    font-family: sans-serif;
+    color: #E0E0E0;
+    margin: 0;
+    padding: 20px;
+    background-color: #0D1B2A ;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'MyCustomFont';
+    color: #E0E0E0;
+}
+
+h2 {
+    font-family: 'MyCustomFont';
+    color: #E0E0E0;
+}
+
+p {
+    font-size: 15px;
+    width: 400px;
+    color: #E0E0E0;
+}
+
+.type1, .type3 {
+    display: flex;
+    font-size: 15px;
+    gap: 10px;
+    align-items: center;
+}
+
+.hall {
+    position: relative;
+}
+
+.hall .first {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.hall .second {
+    display: grid;
+    grid-template-columns: repeat(11, 50px);
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.screen {
+    width: 500px;
+    height: 40px;
+    margin: 60px auto 20px;
+    background: #E0E0E0;
+    border: 2px solid #999;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 0 10px 10px rgba(228, 226, 226, 0.3);
+}
+
+.seat {
+    display: flex;
+    width: 50px;
+    height: 30px;
+    background-color: #E0E0E0;
+    border: 2px solid #999;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #999;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.seat .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #999;
+    border-radius: 5px;
+}
+
+.seat .number:hover {
+    background-color: #b8b8b8;
+}
+
+.vip {
+    background-color: purple;
+    border: 2px solid rgb(87, 1, 87);
+    color: rgb(87, 1, 87);
+}
+
+.vip:hover {
+    background-color: rgb(105, 1, 105);
+}
+
+.selected {
+    background-color: #7e7e7e;
+    color: white;
+}
+
+.booked {
+    background-color: yellow;
+    border: 2px solid rgb(121, 121, 3);
+    color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.rowList {
+    margin-right: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 184px;
+    text-align: center;
+}
+
+.row {
+    font-size: 26.2px;
+    background-color: #8B0000;
+    border: 2px solid #530505;
+    border-radius: 5px;
+    color: #550202;
+}
+
+.modalContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    background-color: #122539;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    z-index: 10;
+    top: -70px;
+    opacity: 0;
+    transition: 0.2s all;
+    padding: 5px;
+    color: white;
+    cursor: default;
+}
+
+.button {
+    font-weight: bold;
+    cursor: pointer;
+}   
+
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    margin-top: 58px;
+    width: 300px;
+    align-items: flex-end;
+}

@@ -1,0 +1,141 @@
+iframe {
+    border-radius: 20px;
+}
+
+.trailer {
+    overflow: hidden;
+    margin: 0 auto;
+    height: 953px;
+    width: 1700px;
+
+}
+
+.genre {
+    height: 50px;
+}
+
+.iaf {
+    margin-top: 20px;
+    height: 300px;
+    align-items: stretch;
+    gap: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.block1 {
+    padding-left: 250px;
+    flex-direction: column;
+    flex: 5;
+    gap: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.info {
+    margin-right: 250px;
+    height: 100%;
+    flex: 4;
+
+}
+
+/*film duration*/
+.fd {
+    height: 50px;
+}
+
+.director {
+    height: 50px;
+}
+
+.actors {
+    height: 100%;
+}
+
+.ticket {
+    background-color: #8B0000;
+    border-radius: 100px;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 40px;
+    margin: 50px auto;
+}
+
+.fon {
+    min-height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle at center, #27374A, #0D1B2A);
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    color: #788088;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color {
+    color: #FFD700;
+}
+
+h4 {
+    color: #B8C0C8;
+    display: inline;
+}
+
+h5 {
+    display: inline;
+    margin-left: 5px;
+}
+
+html {
+    height: 100%;
+}
+
+.ticket:active {
+    transform: scale(0.95);
+    transition: transform 0.1s;
+}
+
+.videoT {
+    border-radius: 2%;
+}
+
+header {
+    position: relative;
+    background-color: #8B0000;
+    display: flex;
+    flex-direction: row;
+    gap: 450px;
+    text-align: center;
+    align-items: center;
+}
+
+header #logo {
+    display: block;
+    color: #E0E0E0;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    font-size: 30px;
+    color: #E0E0E0;
+}
+
+nav ul li a:hover {
+    background-color: #c21414;
+}
